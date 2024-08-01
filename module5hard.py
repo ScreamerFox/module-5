@@ -7,7 +7,7 @@ class User:
         self.age = age
 
     def __str__(self):
-        return f'Логин: {self.nickname},  {self.password}'
+        return f'Логин: {self.nickname}'
 
 
 class Video:
